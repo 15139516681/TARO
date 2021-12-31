@@ -7,10 +7,10 @@ import {useSelector, useDispatch} from 'react-redux'
 import './data.scss'
 const Data: FC = () => {
     let name = useSelector((state:{dj:any}) => state.dj.djList)
-    const changName = useDispatch();
+    // const changName = ();
 
     console.log(name)
-    console.log(changName({type:'GETD',info:{name:'张三'}}))
+    console.log(useDispatch()({type:'GETD',info:{name:'张三'}}))
     console.log(name)
     return (
         <View className="data">

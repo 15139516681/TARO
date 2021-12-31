@@ -1,0 +1,75 @@
+.home {
+    width: 100%;
+    background: #F5F6F7;
+    color: #fff;
+    height: 100vh;
+    .home_header_box {
+        background: url('../../assets/image/home/homeBg.png') no-repeat;
+        background-size: cover;
+        padding-bottom: 40px;
+    }
+    .home_header {
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        font-size: 36px;
+        padding-top: 60px;
+    }
+    .panel_box {
+        padding: 40px 0;
+        .panel_date,
+        .panel_data {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            font-size: 26px;
+            text-align: center;
+            .yesterday,
+            .today {
+                padding: 0 30px;
+                height: 48px;
+                font-size: 32px;
+                line-height: 48px;
+            }
+            .active {
+                background: cornflowerblue;
+                padding: 0 30px;
+                border-radius: 20px;
+                opacity: 0.8;
+            }
+        }
+        .panel_data {
+            padding-top: 40px;
+            font-size: 24px;
+            .order_num_value,
+            .turnover_value {
+                font-size: 40px;
+            }
+        }
+    }
+    .menu {
+        padding: 0 24px;
+        margin-top: -50px;
+    }
+    .menu_content {
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        grid-template-rows: repeat(2, 148px);
+        background: #fff;
+        text-align: center;
+        grid-row-gap: 26px;
+        padding: 32px 0;
+        border-radius: 12px;
+        .single_menu {
+            width: 100%;
+            .menu_icon {
+                width: 90px;
+                height: 90px;
+            }
+            .menu_name {
+                font-size: 24px;
+                color: #666;
+            }
+        }
+    }
+}
