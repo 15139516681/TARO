@@ -64,6 +64,7 @@ const config = {
                 },
             },
         },
+        exnextModules: ['taro-ui']
     },
 }
 

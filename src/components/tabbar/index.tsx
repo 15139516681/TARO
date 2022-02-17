@@ -17,10 +17,10 @@ const Tabbar: FC<{active:string}> = ({active}) => {
                 Taro.redirectTo({url:'pages/data/data'})
                 break;
             case '订单':
-                Taro.navigateTo({url:'pages/order/oder'})
+                Taro.redirectTo({url:'pages/order/order'})
                 break;
             case '我的':
-                Taro.navigateTo({url:'pages/user/user'})
+                Taro.redirectTo({url:'pages/user/user'})
                 break;
         }
 
