@@ -1,0 +1,122 @@
+.node_home {
+  width: 100%;
+  .header_box {
+    background-color: #444;
+    padding-bottom: 40px;
+    .header_image {
+      width: 240px;
+      height: 60px;
+      margin: 0 auto;
+      padding: 6px 40px;
+      .header_icon {
+        width: 240px;
+        height: 60px;
+      }
+    }
+    .header_search {
+      width: 460px;
+      height: 40px;
+      padding: 6px 10px;
+      margin: 0 auto;
+      .search_input {
+        width: inherit;
+        height: inherit;
+        background-color: #666;
+        border-radius: 20px;
+        .weui-input {
+          width: inherit;
+          height: inherit;
+          font-size: 12px;
+          text-indent: 20px;
+          border-radius: 20px;
+        }
+      }
+      .weui-input:focus {
+        background-color: #fff;
+      }
+    }
+    .tabs_box {
+      width: 100%;
+      padding: 20px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      box-sizing: border-box;
+      .single_tab {
+        width: 200px;
+        margin: 0 20px;
+        font-size: 12px;
+        text-align: center;
+        color: #ccc;
+      }
+    }
+  }
+  .column_box {
+    width: 100%;
+    background-color: #f6f6f6;
+    .header_nav {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+      padding: 20px;
+      .single_tag {
+        font-size: 28px;
+        padding: 0 10px;
+        color: #80bd01;
+        margin: 0 20px;
+      }
+      .check {
+        background-color: #80bd01;
+        color: #fff;
+        border-radius: 5px;
+      }
+    }
+    .content_box {
+      background-color: #fff;
+      .single_journalism {
+        padding: 20px;
+        font-size: 28px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box;
+        border-bottom: 1px solid #f0f0f0;
+        .journalism_left,
+        .journalism_left_image {
+          width: 60px;
+          height: 60px;
+          border-radius: 5px;
+        }
+        .journalism_middle {
+          overflow: hidden;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          flex: 2 0 0;
+          .hot_tags {
+            display: inline-block;
+            color: rgb(32, 26, 26);
+            background-color: #80bd01;
+            padding: 0 10px;
+            border-radius: 5px;
+            margin: 0 10px;
+            color: #fff;
+          }
+          .journalism_content {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+        }
+        .journalism_right {
+          width: 120px;
+          font-size: 14px;
+          text-align: right;
+        }
+      }
+    }
+  }
+}
