@@ -1,0 +1,33 @@
+.order_box {
+  width: 100%;
+  .order_header_box {
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    color: #9ed048;
+    height: 120px;
+    line-height: 120px;
+  }
+  .order_turntable {
+    width: 720px;
+    height: 720px;
+    border: 1px solid #ffa631;
+    border-radius: 375px;
+    margin: 0 auto;
+    position: relative;
+    .turntable_prize {
+      width: 0;
+      height: 0;
+      border-top-left-radius: 360px;
+      border-top-right-radius: 360px;
+      border-top: 360px solid transparent;
+      border-left: 360px solid #9ed048; /*transparent 表示透明*/
+      border-right: 360px solid transparent;
+      transform: rotate(90deg);
+      position: absolute;
+      top: 200px;
+      left: 0;
+    }
+  }
+}

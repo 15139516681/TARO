@@ -47,7 +47,7 @@ const Page: FC = () => {
   return (
     <View className="home">
       <View className="home_header_box">
-        <View className="home_header">我是头部标签</View>
+        <View className="home_header">如果你会梦见我</View>
         <View className="panel_box">
           <View className="panel_date">
             <View
